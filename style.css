@@ -125,3 +125,17 @@ p{
     background-color: rgba(0, 0, 0, 0.1); /* Optional: leicht grauer Hintergrund */
     margin: 0;              /* Entfernt Standardabstände des Browsers */
 }
+
+.section {
+  display: none; /* Standardmäßig ausgeblendet */
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.visible {
+  display: block; /* Sichtbar, wenn aktiv */
+}
