@@ -1,11 +1,9 @@
-
-
 // Mapping von Passwörtern zu Abschnitten
 const passwordMap = {
-  "passwort1": "content1",
-  "passwort2": "content2",
-  "passwort3": "content3",
-      "passwort4": "content4",
+  "1234": "content1",
+  "1235": "content2",
+  "1236": "content3",
+  "1237": "content4"
 };
 
 // Passwort überprüfen
@@ -15,11 +13,14 @@ function checkPassword() {
 
   if (passwordMap[password]) {
     // Zeige den passenden Abschnitt
-    document.getElementById("login-form").style.display = "none";
+    document.getElementById("password-screen").style.display = "none";
     document.getElementById(passwordMap[password]).classList.add("visible");
   } else {
     // Zeige eine Fehlermeldung
     errorMessage.style.display = "block";
+    setTimeout(() => {
+      errorMessage.style.display = "none";
+    }, 2000);
   }
 }
 
@@ -29,6 +30,6 @@ function goBack() {
   document.querySelectorAll(".section").forEach(section => {
     section.classList.remove("visible");
   });
-  // Zeige das Formular wieder
-  document.getElementById("login-form").style.display = "block";
+  // Zeige das Passwortformular wieder
+  document.getElementById("password-screen").style.display = "block";
 }
