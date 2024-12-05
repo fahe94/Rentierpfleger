@@ -40,9 +40,9 @@ p{
 
 /* Halbtransparentes Feld */
 .text-box {
-    display: flex;
-    justify-content: center; /* Horizontal zentrieren */
-  top: 25%;
+  display: flex;
+  justify-content: center; /* Horizontal zentrieren */
+  align-items: flex-start;    /* Vertikal zentrieren */
   background-color: rgba(0, 0, 0, 0.8); /* Schwarz mit 50% Transparenz */
   padding: 20px;
   border-radius: 10px; /* Abgerundete Ecken */
