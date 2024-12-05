@@ -32,28 +32,47 @@ p{
       text-align: center;
     }
 
+@media (orientation: portrait) {
+    /* Spezifische Anpassungen für den vertikalen Modus */
+    .flex-container {
+        flex-direction: column;
+        height: auto;  /* Auto-Höhe, damit der Inhalt flexibel bleibt */
+        width: 100%;   /* Vollständige Breite */
+    }
+
+    .text-box {
+        max-width: 90%;  /* Passt die maximale Breite der Textbox an */
+        margin: 10px auto; /* Zentriert die Textbox */
+    }
+}
+
+/* Breite und Höhe für kleinere Geräte */
 @media (max-width: 768px) {
-  .flex-container {
-    flex-direction: column;
-    height: auto;
-    width: 100%;
-    gap: 15px;
-  }
-  .text-box {
-    max-width: 95%;
-  }
+   .flex-container {
+       flex-direction: column; /* Vertikale Anordnung */
+       gap: 10px;
+   }
+
+   .text-box {
+       width: 95%;
+   }
+
+   h1 {
+       font-size: 2rem; /* Kleinere Schrift für kleine Geräte */
+   }
 }
 
 .flex-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 50%;
+  min-height: 50vh;
+  /*height: 100%;*/
+  width: 100%;
   padding: 20px;
   margin: 0;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 1em;
 }
 
 /* Halbtransparentes Feld */
@@ -61,8 +80,9 @@ p{
   background-color: rgba(0, 0, 0, 0.8); /* Schwarz mit 50% Transparenz */
   padding: 20px;
   border-radius: 10px; /* Abgerundete Ecken */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Schatteneffekt */
+  /*box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Schatteneffekt */
   text-align: center;
+  margin: 10px auto;
   /*max-width: 80%; /* Begrenzte Breite */
 }
 
