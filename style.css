@@ -56,7 +56,7 @@ p{
   border-radius: 10px; /* Abgerundete Ecken */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Schatteneffekt */
   text-align: center;
-  height: 200px;
+  height: 150px;
   max-width: 80%; /* Begrenzte Breite */
 }
 
