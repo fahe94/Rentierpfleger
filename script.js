@@ -4,10 +4,10 @@ document.getElementById("submit-button").addEventListener("click", function (fun
   const password = document.getElementById("password").value;
   //Passwörter und Zielseiten
   const routes={
-    "1234": "seite1.html",
-    "1235": "seite2.html",
-    "1236": "seite3.html",
-    "1237": "seite4.html",
+    "1234": "content1",
+    "1235": "content2",
+    "1236": "content3",
+    "1237": "content4",
   };
         // Überprüfen, ob das Passwort existiert
       if (routes[password]) {
