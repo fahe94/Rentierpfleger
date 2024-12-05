@@ -129,7 +129,7 @@ input[type="password"]{
 .center-container{
     display: flex;
     flex-direction: column;
-    height: 100%;          /* Nimmt die volle Höhe des Viewports ein */
+    height: 80%;          /* Nimmt die volle Höhe des Viewports ein */
     background-color: rgba(0, 0, 0, 0.1); /* Optional: leicht grauer Hintergrund */
     margin: 0;              /* Entfernt Standardabstände des Browsers */
 }
