@@ -42,7 +42,7 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50%;
+  height: 30%;
   padding: 20px;
   margin: 0;
   flex-wrap: wrap;
@@ -129,7 +129,7 @@ input[type="password"]{
 .center-container{
     display: flex;
     flex-direction: column;
-    height: 80%;          /* Nimmt die volle Höhe des Viewports ein */
+    height: 70%;          /* Nimmt die volle Höhe des Viewports ein */
     background-color: rgba(0, 0, 0, 0.1); /* Optional: leicht grauer Hintergrund */
     margin: 0;              /* Entfernt Standardabstände des Browsers */
 }
