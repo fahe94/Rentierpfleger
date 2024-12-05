@@ -48,7 +48,7 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80%;
+  height: 100%;
   width: 50%;
   padding: 20px;
   margin: 0;
@@ -71,7 +71,7 @@ p{
   position: fixed;
   top: 0;
   left: 0;
-  width: 80%;
+  width: 100%;
   height: 100%;
   z-index: -1; /* Hintergrundebene */
 }
@@ -137,6 +137,7 @@ input[type="password"]{
     display: flex;
     flex-direction: column;
     height: 80%;          /* Nimmt die volle Höhe des Viewports ein */
+    width: 100%;
     margin: 0;              /* Entfernt Standardabstände des Browsers */
 }
 
