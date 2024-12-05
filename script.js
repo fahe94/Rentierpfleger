@@ -35,8 +35,8 @@ document.getElementById("submit-button").addEventListener("click", function (fun
 const passwordMap = {
   "passwort1": "content1",
   "passwort2": "content2",
-  "passwort3": "content3"
-      "passwort4": "content4"
+  "passwort3": "content3",
+      "passwort4": "content4",
 };
 
 // Passwort überprüfen
