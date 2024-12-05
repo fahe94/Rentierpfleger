@@ -46,7 +46,7 @@ p{
   padding: 20px;
   margin: 0;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 2em;
 }
 
 /* Halbtransparentes Feld */
