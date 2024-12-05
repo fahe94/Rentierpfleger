@@ -13,7 +13,7 @@ document.getElementById("submit-button").addEventListener("click", function (fun
       if (routes[password]) {
         window.location.href = routes[password]; // Weiterleitung zur entsprechenden Seite
       } else {
-        alert("Falsches Passwort!"); // Fehlernachricht
+        alert("Falscher Schlüssel!"); // Fehlernachricht
       }  
   
  /* const correctPassword = "1843"; // Ersetze durch dein Passwort
