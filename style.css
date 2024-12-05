@@ -84,14 +84,14 @@ p{
 
 #password-input {
   padding: 10px;
-  font-size: 1px;
+  font-size: 1em;
   margin-top: 10px;
   width: 100%;
 }
 
 #submit-button {
   padding: 10px 20px;
-  font-size: 1px;
+  font-size: 1em;
   margin-top: 10px;
   cursor: pointer;
 }
